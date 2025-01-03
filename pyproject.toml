@@ -7,7 +7,8 @@ license = "GNU"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.7"
+python = "3.13.1"
+datetime = "^5.5"
 
 
 [build-system]
