@@ -1,6 +1,8 @@
 from datetime import datetime
 import pytz
 
+"""This script will coverts Eastern time to India time."""
+
 def convert_time(src_time, src_tz, dest_tz):
     src_tz = pytz.timezone(src_tz)
     dest_tz = pytz.timezone(dest_tz)
